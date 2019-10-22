@@ -1,0 +1,16 @@
+PODS:
+  - IDP_Cocoapods (0.0.1)
+
+DEPENDENCIES:
+  - IDP_Cocoapods (from `../IDP_Cocoapods/`)
+
+EXTERNAL SOURCES:
+  IDP_Cocoapods:
+    :path: "../IDP_Cocoapods/"
+
+SPEC CHECKSUMS:
+  IDP_Cocoapods: 4eb954178b5aaaf25a1df8cac413c66fdb911805
+
+PODFILE CHECKSUM: febd30279d4afd3c8bfd0eafbf295c5b5f57d7ee
+
+COCOAPODS: 1.7.3

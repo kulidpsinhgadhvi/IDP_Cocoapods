@@ -1,21 +1,18 @@
-#
-#  Be sure to run `pod spec lint IDP_Cocoapods.podspec' to ensure this is a
-#  valid spec and to remove all comments including this before submitting the spec.
-#
-#  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
-#  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
-#
+Pod::Spec.new do |s|
 
-Pod::Spec.new do |spec|
+  s.name         = "IDP_Cocoapods"
+  s.version      = "0.0.1"
+  s.summary      = "Small test to test code sharing via cocoapods."
+s.description  = "This is some superl oco framework that was made by
+kevin vugts."
 
-  spec.name         = "IDP_Cocoapods"
-  spec.version      = "1.0.0"
-  spec.summary      = "This is nice framework"
-  spec.description  = "Iis is very pgood framework which can help you in exploring how we can create own framework and own cocoapods"
-  spec.homepage     = "https://github.com/kulidpsinhgadhvi/IDP_Cocoapods"
-  spec.license      = "MIT"
-  spec.author        = { "Kuldipsinh gadhvi" => "kuldipsinh.gadhvi@volansys.com" }
-  spec.platform     = :ios, "11.0"
-  spec.source       = { :git => "https://github.com/kulidpsinhgadhvi/IDP_Cocoapods.git", :tag => "1.0.0" }
-  spec.source_files  = "IDP_Cocoapods/**/*"
+  s.homepage     = "https://github.com/kulidpsinhgadhvi/IDP_Cocoapods"
+  s.license      = "MIT"
+  s.author        = { "Kuldipsinh gadhvi" => "kuldipsinh.gadhvi@volansys.com" }
+  s.platform     = :ios, "11.0"
+  s.source       = { :git => "https://github.com/kulidpsinhgadhvi/IDP_Cocoapods.git", :tag => "0.0.1" }
+  s.source_files  = "IDP_Cocoapods/**/*"
+  s.swift_version = '4.2'
+  s.ios.deployment_target  = '11.0'
+  s.exclude_files = "IDP_Cocoapods/**/*.plist"
 end
